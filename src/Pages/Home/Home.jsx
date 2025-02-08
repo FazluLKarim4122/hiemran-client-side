@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from '../../assets/Emran_cropped_1.png'
+import Navbar from '../../SharedComponents/Navbar/Navbar';
 
 const Home = () => {
     return (
@@ -15,7 +16,8 @@ const Home = () => {
                 <p className='text-[#000000] font-normal text-xl pt-8 '>contact@hiemran.com</p>
             </div>
             <div className='lg:pr-20 pt-12'>
-                <p className='font-medium text-sm text-black'>Menu</p>
+                {/* <p className='font-medium text-sm text-black'>Menu</p> */}
+                <Navbar></Navbar>
             </div>
         </div>
     );
