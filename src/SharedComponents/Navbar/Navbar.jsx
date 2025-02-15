@@ -1,17 +1,30 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+    const navigationLink = <>
+    <li><NavLink >Myself</NavLink></li>
+    <li ><NavLink>Contributions</NavLink></li>
+    <li><NavLink>Notebook</NavLink></li>
+    <li><NavLink>Find Me</NavLink></li>
+    </>
+
   return (
     <div>
       <div className="dropdown dropdown-hover">
-        <div tabIndex={0} role="button" className="font-medium text-sm text-black m-1">
+        <div  role="" className="font-medium text-sm text-black m-1 text-right">
           Menu
         </div>
         <ul
-          tabIndex={0}
-          className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
-        >
-          <li>
+          
+          className="  dropdown-top
+          text-right "
+        //   className="dropdown-content  "
+        >   
+            {navigationLink}
+
+          {/* <li>
             <a className="font-medium text-sm text-black">Myself</a>
           </li>
           <li>
@@ -22,7 +35,7 @@ const Navbar = () => {
           </li>
           <li>
             <a className="font-medium text-sm text-black">Find Me</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
