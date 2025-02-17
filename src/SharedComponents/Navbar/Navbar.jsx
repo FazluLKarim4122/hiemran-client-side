@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
 
     const navigationLink = <>
-    <li><NavLink >Myself</NavLink></li>
+    <li><NavLink to='/myself' >Myself</NavLink></li>
     <li ><NavLink>Contributions</NavLink></li>
     <li><NavLink>Notebook</NavLink></li>
     <li><NavLink>Find Me</NavLink></li>
@@ -14,7 +14,7 @@ const Navbar = () => {
     <div>
       <div className="dropdown dropdown-hover">
         <div  role="" className="font-medium text-sm text-black m-1 text-right">
-          Menu
+          <NavLink to='/'>Menu</NavLink> 
         </div>
         <ul
           

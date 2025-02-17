@@ -15,7 +15,7 @@ const Home = () => {
                 <p className='text-[#000000] font-light text-xl pt-36 pr-40'>I am a creativity practitioner with over 5 years of professional experience designing solutions in the digital product industry as a UI and UX designer. My focus is on creating clear visual concepts that deliver impactful and inclusive experiences. I believe that beauty is an expression, but ultimately, we value the solutions that make us feel better and safer.</p>
                 <p className='text-[#000000] font-normal text-xl pt-8 '>contact@hiemran.com</p>
             </div>
-            <div className='border pr-10 pt-5 pl-2'>
+            <div className='pr-10 pt-5 pl-2'>
                 <Navbar></Navbar>
             </div>
            

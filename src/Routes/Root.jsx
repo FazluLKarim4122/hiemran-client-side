@@ -4,6 +4,7 @@ import {
   } from "react-router-dom";
 import Home from "../Pages/Home/Home";
 import Main from "../Pages/Main/Main";
+import Myself from "../Pages/Myself/Myself";
 
 
   const router = createBrowserRouter([
@@ -15,6 +16,10 @@ import Main from "../Pages/Main/Main";
             path: "/",
             element: <Home/>,
         },
+        {
+          path: '/myself',
+          element: <Myself></Myself>
+        }
       ]
     },
     
