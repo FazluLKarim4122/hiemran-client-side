@@ -129,7 +129,7 @@ const Myself = () => {
           </div>
         </section>
         {/* Academic Section */}
-        <section className="mt-32">
+        <section className="mt-32 mb-60">
         <p className="font-normal text-[#00000066] text-lg ">
             ACADEMIC LEARNING
           </p>

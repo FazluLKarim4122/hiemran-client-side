@@ -10,7 +10,7 @@ import twitter from "../../assets/socialNetworking/twitter.svg";
     return (
         <div>
             <p className='divider divider-neutral'></p>
-           <div className='flex justify-between'>
+           <div className='flex justify-between mt-10  mb-12'>
                 <p>contact</p>
                 <div className='flex gap-5'>
                     <NavLink><img src={linkedIn} alt="" /></NavLink>
