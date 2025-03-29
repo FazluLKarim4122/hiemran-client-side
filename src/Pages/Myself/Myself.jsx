@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../SharedComponents/Navbar/Navbar";
 import img2 from "../../assets/Emran_cropped_2.png";
+import Footer from "../../SharedComponents/Footer/Footer";
 
 const Myself = () => {
   return (
@@ -177,6 +178,8 @@ const Myself = () => {
           </div>
 
         </section>
+        {/* Footer Section */}
+        <Footer></Footer>
       </div>
       <div>
         <Navbar></Navbar>
